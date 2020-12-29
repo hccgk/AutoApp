@@ -1,0 +1,61 @@
+# This is a sample Python script.
+
+# Press ⌃R to execute it or replace it with your code.
+# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+
+import unittest
+import time,datetime
+from appium import webdriver
+
+def setUp():
+    dc = {}
+    dc['app'] = "/Users/tron/Documents/Work/TronTest/TronLink.apk"
+    dc['automationName'] = "uiautomator2"
+    dc['noReset'] = "true"
+    dc['appPackage'] = "com.tronlinkpro.wallet"
+    dc['platformVersion'] = "9"
+    dc['deviceName'] = "platina"
+    dc['platformName'] = "Android"
+    dc['unicodeKeyboard'] = "true"
+    dc['resetKeyboard'] = "true"
+    driver = webdriver.Remote("http://localhost:4723/wd/hub", dc)
+    time.sleep(10)
+    return driver
+
+def tearDown():
+    driver.press_keycode(66)
+    driver.close()
+    # driver.reset()
+
+def import_Privatekey(privatekey,driver):
+    driver.implicitly_wait(15)
+    driver.find_element_by_id("com.tronlinkpro.wallet:id/iv_wallet_manager").click()
+    driver.find_element_by_xpath(
+        "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout").click()
+    driver.find_element_by_id("com.tronlinkpro.wallet:id/et_content").send_keys(privatekey)
+    driver.find_element_by_id("com.tronlinkpro.wallet:id/bt_next").click()
+    driver.find_element_by_id("com.tronlinkpro.wallet:id/et_name").send_keys("AutoTest")
+    el6 = driver.find_element_by_id("com.tronlinkpro.wallet:id/creat")
+    el6.click()
+    el7 = driver.find_element_by_id("com.tronlinkpro.wallet:id/et_password")
+    el7.send_keys("Test0001")
+    el9 = driver.find_element_by_id("com.tronlinkpro.wallet:id/creat")
+    el9.click()
+    time.sleep(5)
+    el10 = driver.find_element_by_id("com.tronlinkpro.wallet:id/et_password")
+    el10.send_keys("Test0001")
+    el11 = driver.find_element_by_id("com.tronlinkpro.wallet:id/creat")
+    el11.click()
+    time.sleep(20)
+
+if __name__ == '__main__':
+    driver = setUp()
+    privatekey = "ede941a01eb8234866f60c7e8e95db4614bb0d05298d82bae0abea81f1861046"
+    import_Privatekey(privatekey,driver)
+    tearDown()
+
+# Press the green button in the gutter to run the script.
+
+#
+#     import_Privatekey(privatekey)
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
