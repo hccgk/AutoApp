@@ -1,0 +1,1120 @@
+2020-12-28 18:55:12:762 [Appium] Welcome to Appium v1.19.0
+2020-12-28 18:55:12:763 [Appium] Non-default server args:
+2020-12-28 18:55:12:764 [Appium]   address: 127.0.0.1
+2020-12-28 18:55:12:764 [Appium]   logFile: xxx.log
+2020-12-28 18:55:12:764 [Appium]   localTimezone: true
+2020-12-28 18:55:12:783 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2020-12-28 18:55:15:123 [HTTP] Request idempotency key: 05efbcd3-0494-4b1b-9a0a-b222c0fa091f
+2020-12-28 18:55:15:140 [HTTP] --> POST /wd/hub/session
+2020-12-28 18:55:15:141 [HTTP] {"capabilities":{"firstMatch":[{"appium:app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","appium:automationName":"uiautomator1","appium:noReset":"true","appium:appPackage":"com.tronlinkpro.wallet","appium:platformVersion":"9","appium:deviceName":"platina","platformName":"Android","appium:unicodeKeyboard":"true","appium:resetKeyboard":"true"}]},"desiredCapabilities":{"app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","automationName":"uiautomator1","noReset":"true","appPackage":"com.tronlinkpro.wallet","platformVersion":"9","deviceName":"platina","platformName":"Android","unicodeKeyboard":"true","resetKeyboard":"true"}}
+2020-12-28 18:55:15:142 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","automationName":"uiautomator1","noReset":"true","appPackage":"com.tronlinkpro.wallet","platformVersion":"9","deviceName":"platina","platformName":"Android","unicodeKeyboard":"true","resetKeyboard":"true"},null,{"firstMatch":[{"appium:app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","appium:automationName":"uiautomator1","appium:noReset":"true","appium:appPackage":"com.tronlinkpro.wallet","appium:platformVersion":"9","appium:deviceName":"platina","platformName":"Android","appium:unicodeKeyboard":"true","appium:resetKeyboard":"true"}]}]
+2020-12-28 18:55:15:143 [BaseDriver] Event 'newSessionRequested' logged at 1609152915143 (18:55:15 GMT+0800 (China Standard Time))
+2020-12-28 18:55:15:495 [Appium] Appium v1.19.0 creating new AndroidDriver (v4.41.0) session
+2020-12-28 18:55:15:498 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-12-28 18:55:15:498 [BaseDriver] Creating session with W3C capabilities: {
+2020-12-28 18:55:15:498 [BaseDriver]   "alwaysMatch": {
+2020-12-28 18:55:15:499 [BaseDriver]     "platformName": "Android",
+2020-12-28 18:55:15:499 [BaseDriver]     "appium:app": "/Users/tron/Documents/Work/TronTest/TronLink.apk",
+2020-12-28 18:55:15:499 [BaseDriver]     "appium:automationName": "uiautomator1",
+2020-12-28 18:55:15:499 [BaseDriver]     "appium:noReset": "true",
+2020-12-28 18:55:15:499 [BaseDriver]     "appium:appPackage": "com.tronlinkpro.wallet",
+2020-12-28 18:55:15:499 [BaseDriver]     "appium:platformVersion": "9",
+2020-12-28 18:55:15:500 [BaseDriver]     "appium:deviceName": "platina",
+2020-12-28 18:55:15:500 [BaseDriver]     "appium:unicodeKeyboard": "true",
+2020-12-28 18:55:15:500 [BaseDriver]     "appium:resetKeyboard": "true"
+2020-12-28 18:55:15:500 [BaseDriver]   },
+2020-12-28 18:55:15:500 [BaseDriver]   "firstMatch": [
+2020-12-28 18:55:15:500 [BaseDriver]     {}
+2020-12-28 18:55:15:500 [BaseDriver]   ]
+2020-12-28 18:55:15:500 [BaseDriver] }
+2020-12-28 18:55:15:504 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2020-12-28 18:55:15:504 [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2020-12-28 18:55:15:504 [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2020-12-28 18:55:15:506 [BaseDriver] Session created with session id: e7a498c7-3afe-425b-be97-77cc87d46e71
+2020-12-28 18:55:15:512 [ADB] Found 1 'build-tools' folders under '/Users/tron/Library/Android/sdk' (newest first):
+2020-12-28 18:55:15:512 [ADB]     /Users/tron/Library/Android/sdk/build-tools/30.0.2
+2020-12-28 18:55:15:513 [ADB] Using 'adb' from '/Users/tron/Library/Android/sdk/platform-tools/adb'
+2020-12-28 18:55:15:513 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2020-12-28 18:55:15:522 [AndroidDriver] Retrieving device list
+2020-12-28 18:55:15:523 [ADB] Trying to find a connected android device
+2020-12-28 18:55:15:523 [ADB] Getting connected devices
+2020-12-28 18:55:15:530 [ADB] Connected devices: [{"udid":"d94d4ea","state":"device"}]
+2020-12-28 18:55:15:530 [AndroidDriver] Looking for a device with Android '9.0.0'
+2020-12-28 18:55:15:531 [ADB] Setting device id to d94d4ea
+2020-12-28 18:55:15:531 [ADB] Getting device platform version
+2020-12-28 18:55:15:531 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell getprop ro.build.version.release'
+2020-12-28 18:55:15:588 [ADB] Current device property 'ro.build.version.release': 9
+2020-12-28 18:55:15:589 [AndroidDriver] Using device: d94d4ea
+2020-12-28 18:55:15:591 [ADB] Using 'adb' from '/Users/tron/Library/Android/sdk/platform-tools/adb'
+2020-12-28 18:55:15:591 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2020-12-28 18:55:15:599 [ADB] Setting device id to d94d4ea
+2020-12-28 18:55:15:600 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell getprop ro.build.version.sdk'
+2020-12-28 18:55:15:639 [ADB] Current device property 'ro.build.version.sdk': 28
+2020-12-28 18:55:15:639 [ADB] Getting device platform version
+2020-12-28 18:55:15:640 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell getprop ro.build.version.release'
+2020-12-28 18:55:15:672 [ADB] Current device property 'ro.build.version.release': 9
+2020-12-28 18:55:15:672 [ADB] Device API level: 28
+2020-12-28 18:55:15:672 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2020-12-28 18:55:15:675 [BaseDriver] Using local app '/Users/tron/Documents/Work/TronTest/TronLink.apk'
+2020-12-28 18:55:15:675 [AndroidDriver] Checking whether app is actually present
+2020-12-28 18:55:15:676 [AndroidDriver] Starting Android session
+2020-12-28 18:55:15:676 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea wait-for-device'
+2020-12-28 18:55:15:684 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell echo ping'
+2020-12-28 18:55:15:709 [AndroidDriver] Pushing settings apk to device...
+2020-12-28 18:55:15:710 [ADB] Getting install status for io.appium.settings
+2020-12-28 18:55:15:710 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell dumpsys package io.appium.settings'
+2020-12-28 18:55:15:784 [ADB] 'io.appium.settings' is installed
+2020-12-28 18:55:15:785 [ADB] Getting package info for 'io.appium.settings'
+2020-12-28 18:55:15:785 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell dumpsys package io.appium.settings'
+2020-12-28 18:55:15:874 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.1' >= '3.2.1')
+2020-12-28 18:55:15:874 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2020-12-28 18:55:15:875 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-12-28 18:55:15:875 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell 'pgrep --help; echo $?''
+2020-12-28 18:55:15:949 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2020-12-28 18:55:16:063 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-12-28 18:55:16:064 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell appops set io.appium.settings android:mock_location allow'
+2020-12-28 18:55:16:126 [Logcat] Starting logs capture with command: /Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea logcat -v threadtime
+2020-12-28 18:55:16:179 [AndroidDriver] Enabling Unicode keyboard support
+2020-12-28 18:55:16:180 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell settings get secure default_input_method'
+2020-12-28 18:55:16:264 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2020-12-28 18:55:16:264 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2020-12-28 18:55:16:265 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell ime enable io.appium.settings/.UnicodeIME'
+2020-12-28 18:55:16:334 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell ime set io.appium.settings/.UnicodeIME'
+2020-12-28 18:55:16:406 [ADB] Getting device platform version
+2020-12-28 18:55:16:407 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell getprop ro.build.version.release'
+2020-12-28 18:55:16:453 [ADB] Current device property 'ro.build.version.release': 9
+2020-12-28 18:55:16:454 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell wm size'
+2020-12-28 18:55:16:523 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell getprop ro.product.model'
+2020-12-28 18:55:16:564 [ADB] Current device property 'ro.product.model': MI 8 Lite
+2020-12-28 18:55:16:564 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell getprop ro.product.manufacturer'
+2020-12-28 18:55:16:602 [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2020-12-28 18:55:16:603 [AndroidDriver] Parsing package and activity from app manifest
+2020-12-28 18:55:16:611 [ADB] Package name: 'com.tronlinkpro.wallet'
+2020-12-28 18:55:16:612 [ADB] Main activity name: 'com.tron.wallet.business.welcome.WelcomeActivity'
+2020-12-28 18:55:16:612 [AndroidDriver] Parsed package and activity are: com.tronlinkpro.wallet/com.tron.wallet.business.welcome.WelcomeActivity
+2020-12-28 18:55:16:613 [ADB] Getting install status for com.tronlinkpro.wallet
+2020-12-28 18:55:16:613 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell dumpsys package com.tronlinkpro.wallet'
+2020-12-28 18:55:16:677 [ADB] 'com.tronlinkpro.wallet' is installed
+2020-12-28 18:55:16:677 [ADB] Getting package info for 'com.tronlinkpro.wallet'
+2020-12-28 18:55:16:677 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell dumpsys package com.tronlinkpro.wallet'
+2020-12-28 18:55:16:755 [ADB] The version name of the installed 'com.tronlinkpro.wallet' is greater or equal to the application version name ('3.9.1' >= '3.9.1')
+2020-12-28 18:55:16:756 [ADB] There is no need to install/upgrade '/Users/tron/Documents/Work/TronTest/TronLink.apk'
+2020-12-28 18:55:16:756 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell rm -rf /data/local/tmp/strings.json'
+2020-12-28 18:55:16:803 [AndroidDriver] Extracting strings from apk
+2020-12-28 18:55:16:804 [AndroidDriver] /Users/tron/Documents/Work/TronTest/TronLink.apk
+2020-12-28 18:55:16:804 [AndroidDriver] null
+2020-12-28 18:55:16:804 [AndroidDriver] /var/folders/64/8j6jll452md5qbs88mx1_v_40000gn/T/com.tronlinkpro.wallet
+2020-12-28 18:55:16:805 [ADB] Extracting strings from for language: default
+2020-12-28 18:55:16:808 [ADB] Using 'aapt' from '/Users/tron/Library/Android/sdk/build-tools/30.0.2/aapt'
+2020-12-28 18:55:16:823 [ADB] Resource configurations: ["","h720dp","sw600dp","watch","night","small","large","xlarge","ldltr","v22","v23","v24","v25","v26","v28","port","w360dp-port","w480dp-port","land","h360dp-land","h480dp-land","ldpi","mdpi","ldrtl-mdpi","hdpi","ldrtl-hdpi","xhdpi","ldrtl-xhdpi","xxhdpi","ldrtl-xxhdpi","xxxhdpi","ldrtl-xxxhdpi","anydpi","ca","da","fa","ja","ka","pa","ta","nb","id","be","de","he","ne","te","af","bg","th","zh","fi","hi","si","vi","kk","mk","sk","uk","el","gl","ml","nl","pl","sl","tl","am","km","bn","en","in","kn","mn","ko","lo","ro","sq","ar","fr","hr","mr","or","sr","b+sr+Latn","tr","ur","as","bs","cs","es","is","ms","et","it","lt","pt","eu","gu","hu","ru","zu","lv","sv","iw","sw","hy","ky","my","az","uz","en-rCA","fr-rCA","en-rGB","en-rXC","zh-rHK","zh-rCN","en-rIN","pt-rBR","en-rSS","es-rUS","pt-rPT","en-rAU","zh-rTW"]
+2020-12-28 18:55:16:823 [ADB] Selected configuration: '(default)'
+2020-12-28 18:55:17:033 [ADB] Successfully extracted 1836 strings from '/Users/tron/Documents/Work/TronTest/TronLink.apk' resources for '(default)' configuration
+2020-12-28 18:55:17:039 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell mkdir -p /data/local'
+2020-12-28 18:55:17:082 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea push /var/folders/64/8j6jll452md5qbs88mx1_v_40000gn/T/com.tronlinkpro.wallet/strings.json /data/local/tmp'
+2020-12-28 18:55:17:109 [AndroidBootstrap] Watching for bootstrap disconnect
+2020-12-28 18:55:17:110 [ADB] Forwarding system: 4724 to device: 4724
+2020-12-28 18:55:17:110 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea forward tcp:4724 tcp:4724'
+2020-12-28 18:55:17:117 [UiAutomator] Starting UiAutomator
+2020-12-28 18:55:17:117 [UiAutomator] Moving to state 'starting'
+2020-12-28 18:55:17:117 [UiAutomator] Parsing uiautomator jar
+2020-12-28 18:55:17:118 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2020-12-28 18:55:17:118 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell mkdir -p /data/local'
+2020-12-28 18:55:17:156 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea push /usr/local/lib/node_modules/appium/node_modules/appium-android-driver/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+2020-12-28 18:55:17:179 [ADB] Attempting to kill all uiautomator processes
+2020-12-28 18:55:17:179 [ADB] Getting IDs of all 'uiautomator' processes
+2020-12-28 18:55:17:180 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell pgrep -f \(\[\[:blank:\]\]\|\^\)uiautomator\(\[\[:blank:\]\]\|\$\)'
+2020-12-28 18:55:17:299 [ADB] No 'uiautomator' process has been found
+2020-12-28 18:55:17:299 [UiAutomator] Starting UIAutomator
+2020-12-28 18:55:17:300 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","d94d4ea","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tronlinkpro.wallet","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2020-12-28 18:55:17:701 [UiAutomator] Moving to state 'online'
+2020-12-28 18:55:17:706 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2020-12-28 18:55:17:707 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2020-12-28 18:55:17:711 [AndroidBootstrap] Android bootstrap socket is now connected
+2020-12-28 18:55:17:711 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell dumpsys window'
+2020-12-28 18:55:17:716 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2020-12-28 18:55:17:815 [AndroidDriver] Screen already unlocked, doing nothing
+2020-12-28 18:55:17:816 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell am start -W -n com.tronlinkpro.wallet/com.tron.wallet.business.welcome.WelcomeActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-12-28 18:55:20:888 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.tronlinkpro.wallet' and activity: 'com.tron.wallet.business.welcome.WelcomeActivity' to be focused
+2020-12-28 18:55:20:888 [ADB] Possible activities, to be checked: 'com.tron.wallet.business.welcome.WelcomeActivity', 'com.tronlinkpro.wallet.com.tron.wallet.business.welcome.WelcomeActivity'
+2020-12-28 18:55:20:889 [ADB] Getting focused package and activity
+2020-12-28 18:55:20:890 [ADB] Running '/Users/tron/Library/Android/sdk/platform-tools/adb -P 5037 -s d94d4ea shell dumpsys window windows'
+2020-12-28 18:55:20:979 [ADB] Found package: 'com.tronlinkpro.wallet' and fully qualified activity name : 'com.tron.wallet.business.welcome.WelcomeActivity'
+2020-12-28 18:55:20:981 [Appium] New AndroidDriver session created successfully, session e7a498c7-3afe-425b-be97-77cc87d46e71 added to master session list
+2020-12-28 18:55:20:982 [BaseDriver] Event 'newSessionStarted' logged at 1609152920982 (18:55:20 GMT+0800 (China Standard Time))
+2020-12-28 18:55:20:982 [W3C (e7a498c7)] Cached the protocol value 'W3C' for the new session e7a498c7-3afe-425b-be97-77cc87d46e71
+2020-12-28 18:55:20:983 [W3C (e7a498c7)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","automationName":"uiautomator1","noReset":true,"appPackage":"com.tronlinkpro.wallet","platformVersion":"9","deviceName":"platina","unicodeKeyboard":true,"resetKeyboard":true},"platformName":"Android","app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","automationName":"uiautomator1","noReset":true,"appPackage":"com.tronlinkpro.wallet","platformVersion":"9","deviceName":"d94d4ea","unicodeKeyboard":true,"resetKeyboard":true,"deviceUDID":"d94d4ea","deviceScreenSize":"1080x2280","deviceModel":"MI 8 Lite","deviceManufacturer":"Xiaomi","appWaitPackage":"com.tronlinkpro.wallet","appActivity":"com.tron.wallet.business.welcome.WelcomeActivity","appWaitActivity":"com.tron.wallet.business.welcome.WelcomeActivity"}}
+2020-12-28 18:55:20:988 [HTTP] <-- POST /wd/hub/session 200 5845 ms - 1083
+2020-12-28 18:55:20:988 [HTTP] 
+2020-12-28 18:55:20:992 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/timeouts
+2020-12-28 18:55:20:992 [HTTP] {"implicit":15000}
+2020-12-28 18:55:20:993 [W3C (e7a498c7)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,15000,"e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:20:993 [BaseDriver] W3C timeout argument: {"implicit":15000}}
+2020-12-28 18:55:20:994 [BaseDriver] Set implicit wait to 15000ms
+2020-12-28 18:55:20:994 [W3C (e7a498c7)] Responding to client with driver.timeouts() result: null
+2020-12-28 18:55:20:995 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/timeouts 200 3 ms - 14
+2020-12-28 18:55:20:995 [HTTP] 
+2020-12-28 18:55:31:090 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:55:31:090 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:55:31:092 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:31:093 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:55:31:093 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:55:31:094 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:31:099 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:31:099 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:31:101 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:55:31:101 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:55:31:102 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:55:31:199 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2020-12-28 18:55:31:201 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:31:202 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+2020-12-28 18:55:31:203 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 113 ms - 67
+2020-12-28 18:55:31:203 [HTTP] 
+2020-12-28 18:55:31:205 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:55:31:206 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:55:31:207 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:31:208 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:55:31:208 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:55:31:208 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:31:215 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:31:215 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:31:215 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:55:31:215 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:55:31:216 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:55:31:246 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2020-12-28 18:55:31:246 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:31:247 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}
+2020-12-28 18:55:31:248 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 42 ms - 67
+2020-12-28 18:55:31:248 [HTTP] 
+2020-12-28 18:55:31:250 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/2/click
+2020-12-28 18:55:31:250 [HTTP] {"id":"2"}
+2020-12-28 18:55:31:251 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["2","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:31:252 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2020-12-28 18:55:31:256 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2020-12-28 18:55:31:256 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:31:256 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:55:32:095 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:55:32:096 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:32:096 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:55:32:097 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/2/click 200 847 ms - 14
+2020-12-28 18:55:32:098 [HTTP] 
+2020-12-28 18:55:37:102 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:55:37:102 [HTTP] {"using":"-android uiautomator","value":"className(\"android.widget.TextView\").text(\"删除钱包\")"}
+2020-12-28 18:55:37:103 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","className(\"android.widget.TextView\").text(\"删除钱包\")","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:37:103 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:55:37:103 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:55:37:104 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:55:37:110 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:55:37:112 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:37:112 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:55:37:112 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'className("android.widget.TextView").text("删除钱包")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2020-12-28 18:55:37:114 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: className("android.widget.TextView").text("删除钱包")
+2020-12-28 18:55:37:115 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+2020-12-28 18:55:37:115 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+2020-12-28 18:55:37:115 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "删除钱包"
+2020-12-28 18:55:37:116 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=删除钱包, CLASS=android.widget.TextView]
+2020-12-28 18:55:37:799 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2020-12-28 18:55:37:801 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:37:802 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}
+2020-12-28 18:55:37:803 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 701 ms - 67
+2020-12-28 18:55:37:804 [HTTP] 
+2020-12-28 18:55:37:806 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/3/click
+2020-12-28 18:55:37:806 [HTTP] {"id":"3"}
+2020-12-28 18:55:37:807 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["3","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:37:807 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2020-12-28 18:55:37:813 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2020-12-28 18:55:37:813 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:37:813 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:55:38:346 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:38:347 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:55:38:348 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/3/click 200 542 ms - 14
+2020-12-28 18:55:38:348 [HTTP] 
+2020-12-28 18:55:38:349 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:55:38:350 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:55:38:351 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/et_password"}
+2020-12-28 18:55:38:351 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/et_password","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:38:352 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:55:38:352 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:55:38:352 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:55:38:361 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:55:38:361 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:38:362 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:55:38:362 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/et_password' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:55:38:368 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/et_password]
+2020-12-28 18:55:39:449 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:39:450 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4","ELEMENT":"4"}
+2020-12-28 18:55:39:451 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 1100 ms - 67
+2020-12-28 18:55:39:451 [HTTP] 
+2020-12-28 18:55:39:452 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2020-12-28 18:55:39:453 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/4/value
+2020-12-28 18:55:39:454 [HTTP] {"text":"Test0001","value":["T","e","s","t","0","0","0","1"],"id":"4"}
+2020-12-28 18:55:39:454 [W3C (e7a498c7)] Calling AppiumDriver.setValue() with args: [["T","e","s","t","0","0","0","1"],"4","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:39:455 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"4","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:55:39:461 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"4","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:55:39:461 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:39:462 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2020-12-28 18:55:39:465 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 4
+2020-12-28 18:55:39:500 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2020-12-28 18:55:42:416 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2020-12-28 18:55:42:453 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2020-12-28 18:55:42:453 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Test0001
+2020-12-28 18:55:45:039 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:55:45:041 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:45:041 [W3C (e7a498c7)] Responding to client with driver.setValue() result: true
+2020-12-28 18:55:45:042 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/4/value 200 5589 ms - 14
+2020-12-28 18:55:45:042 [HTTP] 
+2020-12-28 18:55:45:044 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:55:45:044 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_ok"}
+2020-12-28 18:55:45:044 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_ok","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:45:044 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:55:45:045 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:55:45:045 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:55:45:054 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:55:45:057 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:45:057 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:55:45:057 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_ok' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:55:45:057 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_ok]
+2020-12-28 18:55:45:576 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2020-12-28 18:55:45:584 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:45:584 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5","ELEMENT":"5"}
+2020-12-28 18:55:45:585 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 541 ms - 67
+2020-12-28 18:55:45:586 [HTTP] 
+2020-12-28 18:55:45:587 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/5/click
+2020-12-28 18:55:45:587 [HTTP] {"id":"5"}
+2020-12-28 18:55:45:588 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["5","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:45:588 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+2020-12-28 18:55:45:594 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+2020-12-28 18:55:45:594 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:45:599 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:55:45:804 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:45:805 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:55:45:806 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/5/click 200 218 ms - 14
+2020-12-28 18:55:45:807 [HTTP] 
+2020-12-28 18:55:45:808 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:55:55:813 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:55:55:813 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:55:55:813 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:55:814 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:55:55:814 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:55:55:814 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:55:821 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:55:821 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:55:821 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:55:55:823 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:55:55:823 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:55:55:848 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2020-12-28 18:55:55:854 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:55:855 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6","ELEMENT":"6"}
+2020-12-28 18:55:55:856 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 43 ms - 67
+2020-12-28 18:55:55:856 [HTTP] 
+2020-12-28 18:55:55:858 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:55:55:858 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:55:55:858 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:55:859 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:55:55:859 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:55:55:859 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:55:864 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:55:55:864 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:55:865 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:55:55:865 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:55:55:867 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:55:55:891 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2020-12-28 18:55:55:894 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:55:895 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7","ELEMENT":"7"}
+2020-12-28 18:55:55:896 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 38 ms - 67
+2020-12-28 18:55:55:896 [HTTP] 
+2020-12-28 18:55:55:898 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/7/click
+2020-12-28 18:55:55:898 [HTTP] {"id":"7"}
+2020-12-28 18:55:55:898 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["7","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:55:55:899 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2020-12-28 18:55:55:906 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2020-12-28 18:55:55:906 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:55:55:906 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:55:56:499 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:55:56:499 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:55:56:503 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/7/click 200 603 ms - 14
+2020-12-28 18:55:56:503 [HTTP] 
+2020-12-28 18:55:56:503 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:01:509 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:01:510 [HTTP] {"using":"-android uiautomator","value":"className(\"android.widget.TextView\").text(\"删除钱包\")"}
+2020-12-28 18:56:01:510 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","className(\"android.widget.TextView\").text(\"删除钱包\")","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:01:511 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:01:511 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:01:511 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:56:01:519 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:56:01:519 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:01:519 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:01:520 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'className("android.widget.TextView").text("删除钱包")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2020-12-28 18:56:01:521 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: className("android.widget.TextView").text("删除钱包")
+2020-12-28 18:56:01:521 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+2020-12-28 18:56:01:525 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+2020-12-28 18:56:01:529 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "删除钱包"
+2020-12-28 18:56:01:529 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=删除钱包, CLASS=android.widget.TextView]
+2020-12-28 18:56:01:616 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2020-12-28 18:56:01:619 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:01:621 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8","ELEMENT":"8"}
+2020-12-28 18:56:01:622 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 112 ms - 67
+2020-12-28 18:56:01:622 [HTTP] 
+2020-12-28 18:56:01:624 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/8/click
+2020-12-28 18:56:01:624 [HTTP] {"id":"8"}
+2020-12-28 18:56:01:625 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["8","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:01:625 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2020-12-28 18:56:01:631 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2020-12-28 18:56:01:634 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:01:635 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:02:040 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:02:041 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:02:042 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/8/click 200 417 ms - 14
+2020-12-28 18:56:02:042 [HTTP] 
+2020-12-28 18:56:02:043 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:02:044 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:02:044 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/et_password"}
+2020-12-28 18:56:02:044 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/et_password","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:02:045 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:02:045 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:02:045 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:56:02:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:56:02:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:02:054 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:02:054 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/et_password' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:02:054 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/et_password]
+2020-12-28 18:56:03:194 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:03:194 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9","ELEMENT":"9"}
+2020-12-28 18:56:03:195 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 1151 ms - 67
+2020-12-28 18:56:03:195 [HTTP] 
+2020-12-28 18:56:03:196 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+2020-12-28 18:56:03:197 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/9/value
+2020-12-28 18:56:03:197 [HTTP] {"text":"Test0001","value":["T","e","s","t","0","0","0","1"],"id":"9"}
+2020-12-28 18:56:03:198 [W3C (e7a498c7)] Calling AppiumDriver.setValue() with args: [["T","e","s","t","0","0","0","1"],"9","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:03:198 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"9","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:56:03:206 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"9","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:56:03:206 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:03:206 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2020-12-28 18:56:03:206 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 9
+2020-12-28 18:56:03:255 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2020-12-28 18:56:06:309 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2020-12-28 18:56:06:399 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2020-12-28 18:56:06:410 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Test0001
+2020-12-28 18:56:09:092 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:09:093 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:09:093 [W3C (e7a498c7)] Responding to client with driver.setValue() result: true
+2020-12-28 18:56:09:094 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/9/value 200 5897 ms - 14
+2020-12-28 18:56:09:095 [HTTP] 
+2020-12-28 18:56:09:097 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:09:097 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_ok"}
+2020-12-28 18:56:09:097 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_ok","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:09:097 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:09:098 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:09:098 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:56:09:104 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:56:09:104 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:09:104 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:09:105 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_ok' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:09:107 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_ok]
+2020-12-28 18:56:09:631 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+2020-12-28 18:56:09:639 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:09:640 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10","ELEMENT":"10"}
+2020-12-28 18:56:09:641 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 544 ms - 69
+2020-12-28 18:56:09:642 [HTTP] 
+2020-12-28 18:56:09:643 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/10/click
+2020-12-28 18:56:09:643 [HTTP] {"id":"10"}
+2020-12-28 18:56:09:644 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["10","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:09:644 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+2020-12-28 18:56:09:650 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+2020-12-28 18:56:09:651 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:09:651 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:09:912 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:09:913 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:09:914 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:09:915 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/10/click 200 272 ms - 14
+2020-12-28 18:56:09:915 [HTTP] 
+2020-12-28 18:56:19:921 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:19:921 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:56:19:921 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:19:922 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:19:922 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:19:922 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:19:931 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:19:931 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:19:932 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:19:932 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:19:934 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:56:19:953 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+2020-12-28 18:56:19:959 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:19:960 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"11","ELEMENT":"11"}
+2020-12-28 18:56:19:961 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 40 ms - 69
+2020-12-28 18:56:19:961 [HTTP] 
+2020-12-28 18:56:19:963 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:19:963 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:56:19:963 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:19:964 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:19:964 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:19:964 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:19:970 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:19:971 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:19:971 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:19:971 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:19:972 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:56:20:053 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+2020-12-28 18:56:20:054 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:20:055 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"12","ELEMENT":"12"}
+2020-12-28 18:56:20:056 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 93 ms - 69
+2020-12-28 18:56:20:056 [HTTP] 
+2020-12-28 18:56:20:058 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/12/click
+2020-12-28 18:56:20:058 [HTTP] {"id":"12"}
+2020-12-28 18:56:20:058 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["12","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:20:059 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+2020-12-28 18:56:20:063 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+2020-12-28 18:56:20:064 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:20:064 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:20:625 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:20:626 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:20:627 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/12/click 200 569 ms - 14
+2020-12-28 18:56:20:627 [HTTP] 
+2020-12-28 18:56:20:629 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:25:633 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:25:634 [HTTP] {"using":"-android uiautomator","value":"className(\"android.widget.TextView\").text(\"删除钱包\")"}
+2020-12-28 18:56:25:634 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","className(\"android.widget.TextView\").text(\"删除钱包\")","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:25:634 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:25:634 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:25:635 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:56:25:643 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:56:25:643 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:25:643 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:25:645 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'className("android.widget.TextView").text("删除钱包")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2020-12-28 18:56:25:646 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: className("android.widget.TextView").text("删除钱包")
+2020-12-28 18:56:25:648 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+2020-12-28 18:56:25:651 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+2020-12-28 18:56:25:654 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "删除钱包"
+2020-12-28 18:56:25:659 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=删除钱包, CLASS=android.widget.TextView]
+2020-12-28 18:56:25:733 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"13"}}
+2020-12-28 18:56:25:741 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:25:741 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"13","ELEMENT":"13"}
+2020-12-28 18:56:25:742 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 109 ms - 69
+2020-12-28 18:56:25:742 [HTTP] 
+2020-12-28 18:56:25:744 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/13/click
+2020-12-28 18:56:25:744 [HTTP] {"id":"13"}
+2020-12-28 18:56:25:744 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["13","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:25:745 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"13"}}
+2020-12-28 18:56:25:748 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"13"}}
+2020-12-28 18:56:25:748 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:25:749 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:26:108 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:26:109 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:26:110 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:26:110 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/13/click 200 366 ms - 14
+2020-12-28 18:56:26:111 [HTTP] 
+2020-12-28 18:56:26:113 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:26:113 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/et_password"}
+2020-12-28 18:56:26:113 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/et_password","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:26:113 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:26:114 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:26:114 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:56:26:121 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:56:26:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:26:122 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:26:126 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/et_password' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:26:126 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/et_password]
+2020-12-28 18:56:27:299 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"14"}}
+2020-12-28 18:56:27:304 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:27:304 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"14","ELEMENT":"14"}
+2020-12-28 18:56:27:306 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 1193 ms - 69
+2020-12-28 18:56:27:306 [HTTP] 
+2020-12-28 18:56:27:308 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/14/value
+2020-12-28 18:56:27:308 [HTTP] {"text":"Test0001","value":["T","e","s","t","0","0","0","1"],"id":"14"}
+2020-12-28 18:56:27:309 [W3C (e7a498c7)] Calling AppiumDriver.setValue() with args: [["T","e","s","t","0","0","0","1"],"14","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:27:309 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"14","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:56:27:313 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"14","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:56:27:314 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:27:314 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2020-12-28 18:56:27:314 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 14
+2020-12-28 18:56:27:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2020-12-28 18:56:30:554 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2020-12-28 18:56:30:568 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2020-12-28 18:56:30:579 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Test0001
+2020-12-28 18:56:33:703 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:33:704 [W3C (e7a498c7)] Responding to client with driver.setValue() result: true
+2020-12-28 18:56:33:705 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/14/value 200 6397 ms - 14
+2020-12-28 18:56:33:705 [HTTP] 
+2020-12-28 18:56:33:707 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:33:707 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_ok"}
+2020-12-28 18:56:33:708 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_ok","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:33:708 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:33:711 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:33:711 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:56:33:712 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:33:716 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:56:33:716 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:33:716 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:33:716 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_ok' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:33:716 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_ok]
+2020-12-28 18:56:34:261 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"15"}}
+2020-12-28 18:56:34:264 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:34:264 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"15","ELEMENT":"15"}
+2020-12-28 18:56:34:265 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 558 ms - 69
+2020-12-28 18:56:34:265 [HTTP] 
+2020-12-28 18:56:34:267 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/15/click
+2020-12-28 18:56:34:267 [HTTP] {"id":"15"}
+2020-12-28 18:56:34:267 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["15","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:34:268 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"15"}}
+2020-12-28 18:56:34:276 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"15"}}
+2020-12-28 18:56:34:276 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:34:279 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:34:487 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:34:488 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:34:489 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/15/click 200 222 ms - 14
+2020-12-28 18:56:34:489 [HTTP] 
+2020-12-28 18:56:34:490 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:44:494 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:44:495 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:56:44:495 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:44:496 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:44:496 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:44:496 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:44:501 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:44:503 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:44:503 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:44:504 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:44:505 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:56:44:546 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"16"}}
+2020-12-28 18:56:44:549 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:44:550 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"16","ELEMENT":"16"}
+2020-12-28 18:56:44:551 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 56 ms - 69
+2020-12-28 18:56:44:551 [HTTP] 
+2020-12-28 18:56:44:552 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:44:553 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:56:44:553 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:44:553 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:44:553 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:44:553 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:44:559 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:56:44:560 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:44:565 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:44:565 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:44:567 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:56:44:653 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"17"}}
+2020-12-28 18:56:44:658 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:44:658 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"17","ELEMENT":"17"}
+2020-12-28 18:56:44:659 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 106 ms - 69
+2020-12-28 18:56:44:659 [HTTP] 
+2020-12-28 18:56:44:661 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/17/click
+2020-12-28 18:56:44:661 [HTTP] {"id":"17"}
+2020-12-28 18:56:44:661 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["17","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:44:661 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"17"}}
+2020-12-28 18:56:44:665 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"17"}}
+2020-12-28 18:56:44:666 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:44:666 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:45:218 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:45:219 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:45:219 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:45:220 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/17/click 200 559 ms - 14
+2020-12-28 18:56:45:220 [HTTP] 
+2020-12-28 18:56:50:227 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:50:227 [HTTP] {"using":"-android uiautomator","value":"className(\"android.widget.TextView\").text(\"删除钱包\")"}
+2020-12-28 18:56:50:228 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","className(\"android.widget.TextView\").text(\"删除钱包\")","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:50:228 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:50:228 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:50:229 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:56:50:234 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"className(\"android.widget.TextView\").text(\"删除钱包\")","context":"","multiple":false}}
+2020-12-28 18:56:50:234 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:50:234 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:50:236 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'className("android.widget.TextView").text("删除钱包")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2020-12-28 18:56:50:236 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: className("android.widget.TextView").text("删除钱包")
+2020-12-28 18:56:50:238 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+2020-12-28 18:56:50:238 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+2020-12-28 18:56:50:238 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "删除钱包"
+2020-12-28 18:56:50:239 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=删除钱包, CLASS=android.widget.TextView]
+2020-12-28 18:56:50:257 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"18"}}
+2020-12-28 18:56:50:264 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:50:265 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"18","ELEMENT":"18"}
+2020-12-28 18:56:50:266 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 39 ms - 69
+2020-12-28 18:56:50:266 [HTTP] 
+2020-12-28 18:56:50:268 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/18/click
+2020-12-28 18:56:50:268 [HTTP] {"id":"18"}
+2020-12-28 18:56:50:269 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["18","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:50:269 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"18"}}
+2020-12-28 18:56:50:275 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"18"}}
+2020-12-28 18:56:50:276 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:50:276 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:50:674 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:50:675 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:50:675 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/18/click 200 407 ms - 14
+2020-12-28 18:56:50:675 [HTTP] 
+2020-12-28 18:56:50:676 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:50:677 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:50:677 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/et_password"}
+2020-12-28 18:56:50:677 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/et_password","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:50:678 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:50:678 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:50:678 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:56:50:686 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/et_password","context":"","multiple":false}}
+2020-12-28 18:56:50:686 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:50:686 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:50:686 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/et_password' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:50:686 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/et_password]
+2020-12-28 18:56:51:715 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"19"}}
+2020-12-28 18:56:51:716 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:51:716 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"19","ELEMENT":"19"}
+2020-12-28 18:56:51:717 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 1040 ms - 69
+2020-12-28 18:56:51:718 [HTTP] 
+2020-12-28 18:56:51:719 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/19/value
+2020-12-28 18:56:51:720 [HTTP] {"text":"Test0001","value":["T","e","s","t","0","0","0","1"],"id":"19"}
+2020-12-28 18:56:51:720 [W3C (e7a498c7)] Calling AppiumDriver.setValue() with args: [["T","e","s","t","0","0","0","1"],"19","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:51:720 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"19","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:56:51:724 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"19","text":"Test0001","replace":false,"unicodeKeyboard":true}}
+2020-12-28 18:56:51:724 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:51:725 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2020-12-28 18:56:51:725 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 19
+2020-12-28 18:56:51:821 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2020-12-28 18:56:54:831 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2020-12-28 18:56:54:878 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2020-12-28 18:56:54:888 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: Test0001
+2020-12-28 18:56:57:691 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:57:692 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:57:692 [W3C (e7a498c7)] Responding to client with driver.setValue() result: true
+2020-12-28 18:56:57:693 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/19/value 200 5973 ms - 14
+2020-12-28 18:56:57:693 [HTTP] 
+2020-12-28 18:56:57:695 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:56:57:695 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_ok"}
+2020-12-28 18:56:57:695 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_ok","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:57:696 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:56:57:696 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:56:57:696 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:56:57:701 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_ok","context":"","multiple":false}}
+2020-12-28 18:56:57:701 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:57:702 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:56:57:704 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_ok' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:56:57:704 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_ok]
+2020-12-28 18:56:58:242 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:58:243 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"20"}}
+2020-12-28 18:56:58:243 [W3C (e7a498c7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"20","ELEMENT":"20"}
+2020-12-28 18:56:58:244 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 200 549 ms - 69
+2020-12-28 18:56:58:244 [HTTP] 
+2020-12-28 18:56:58:246 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/20/click
+2020-12-28 18:56:58:246 [HTTP] {"id":"20"}
+2020-12-28 18:56:58:247 [W3C (e7a498c7)] Calling AppiumDriver.click() with args: ["20","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:56:58:247 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"20"}}
+2020-12-28 18:56:58:254 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"20"}}
+2020-12-28 18:56:58:254 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:56:58:255 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2020-12-28 18:56:58:524 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2020-12-28 18:56:58:525 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:56:58:526 [W3C (e7a498c7)] Responding to client with driver.click() result: true
+2020-12-28 18:56:58:527 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element/20/click 200 280 ms - 14
+2020-12-28 18:56:58:527 [HTTP] 
+2020-12-28 18:57:08:530 [HTTP] --> POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element
+2020-12-28 18:57:08:530 [HTTP] {"using":"id","value":"com.tronlinkpro.wallet:id/tv_walletname"}
+2020-12-28 18:57:08:531 [W3C (e7a498c7)] Calling AppiumDriver.findElement() with args: ["id","com.tronlinkpro.wallet:id/tv_walletname","e7a498c7-3afe-425b-be97-77cc87d46e71"]
+2020-12-28 18:57:08:531 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-12-28 18:57:08:531 [BaseDriver] Waiting up to 15000 ms for condition
+2020-12-28 18:57:08:531 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:08:537 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:08:541 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:08:543 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:08:543 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:08:545 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:08:555 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:08:558 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:08:559 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:08:571 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:08:571 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:08:572 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:08:607 [BaseDriver] Waited for 76 ms so far
+2020-12-28 18:57:09:111 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:09:116 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:09:117 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:09:117 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:09:117 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:09:118 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:09:154 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:09:154 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:09:157 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:09:165 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:09:167 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:09:167 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:09:168 [BaseDriver] Waited for 637 ms so far
+2020-12-28 18:57:09:672 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:09:678 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:09:678 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:09:678 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:09:678 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:09:680 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:09:691 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:09:691 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:09:694 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:09:712 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:09:713 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:09:714 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:09:715 [BaseDriver] Waited for 1183 ms so far
+2020-12-28 18:57:10:215 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:10:221 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:10:221 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:10:221 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:10:221 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:10:223 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:10:277 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:10:284 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:10:288 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:10:343 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:10:344 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:10:344 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:10:345 [BaseDriver] Waited for 1814 ms so far
+2020-12-28 18:57:10:851 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:10:856 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:10:858 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:10:858 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:10:860 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:10:861 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:10:867 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:10:868 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:10:869 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:10:876 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:10:880 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:10:880 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:10:881 [BaseDriver] Waited for 2350 ms so far
+2020-12-28 18:57:11:387 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:11:393 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:11:395 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:11:395 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:11:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:11:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:11:431 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:11:432 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:11:434 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:11:517 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:11:518 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:11:519 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:11:520 [BaseDriver] Waited for 2989 ms so far
+2020-12-28 18:57:12:024 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:12:029 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:12:031 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:12:033 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:12:033 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:12:034 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:12:102 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:12:102 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:12:104 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:12:122 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:12:122 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:12:123 [BaseDriver] Waited for 3592 ms so far
+2020-12-28 18:57:12:123 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:12:628 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:12:635 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:12:635 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:12:635 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:12:638 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:12:639 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:12:692 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:12:696 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:12:697 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:12:726 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:12:727 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:12:728 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:12:729 [BaseDriver] Waited for 4197 ms so far
+2020-12-28 18:57:13:231 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:13:238 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:13:239 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:13:240 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:13:240 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:13:242 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:13:264 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:13:264 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:13:267 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:13:312 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:13:313 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:13:313 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:13:314 [BaseDriver] Waited for 4783 ms so far
+2020-12-28 18:57:13:817 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:13:824 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:13:825 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:13:825 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:13:825 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:13:825 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:13:881 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:13:885 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:13:885 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:13:920 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:13:921 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:13:921 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:13:922 [BaseDriver] Waited for 5391 ms so far
+2020-12-28 18:57:14:426 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:14:432 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:14:434 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:14:435 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:14:435 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:14:437 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:14:451 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:14:451 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:14:452 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:14:510 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:14:511 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:14:512 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:14:512 [BaseDriver] Waited for 5981 ms so far
+2020-12-28 18:57:15:014 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:15:019 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:15:020 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:15:020 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:15:020 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:15:023 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:15:042 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:15:043 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:15:044 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:15:065 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:15:066 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:15:066 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:15:068 [BaseDriver] Waited for 6537 ms so far
+2020-12-28 18:57:15:573 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:15:579 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:15:582 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:15:582 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:15:582 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:15:583 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:15:592 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:15:596 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:15:599 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:15:633 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:15:635 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:15:635 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:15:636 [BaseDriver] Waited for 7105 ms so far
+2020-12-28 18:57:16:142 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:16:151 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:16:151 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:16:151 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:16:152 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:16:154 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:16:190 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:16:190 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:16:193 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:16:247 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:16:249 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:16:250 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:16:251 [BaseDriver] Waited for 7720 ms so far
+2020-12-28 18:57:16:752 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:16:758 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:16:759 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:16:759 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:16:759 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:16:761 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:16:802 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:16:802 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:16:805 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:16:882 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:16:882 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:16:883 [BaseDriver] Waited for 8352 ms so far
+2020-12-28 18:57:16:884 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:17:389 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:17:395 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:17:395 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:17:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:17:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:17:399 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:17:425 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:17:429 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:17:430 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:17:475 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:17:481 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:17:481 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:17:483 [BaseDriver] Waited for 8951 ms so far
+2020-12-28 18:57:17:984 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:17:991 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:17:991 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:17:992 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:17:997 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:18:000 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:18:048 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:18:048 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:18:050 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:18:132 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:18:132 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:18:133 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:18:134 [BaseDriver] Waited for 9602 ms so far
+2020-12-28 18:57:18:638 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:18:645 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:18:645 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:18:646 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:18:646 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:18:649 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:18:704 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:18:704 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:18:704 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:18:747 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:18:749 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:18:749 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:18:750 [BaseDriver] Waited for 10219 ms so far
+2020-12-28 18:57:19:253 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:19:259 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:19:260 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:19:260 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:19:260 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:19:262 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:19:273 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:19:274 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:19:277 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:19:289 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:19:292 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:19:292 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:19:293 [BaseDriver] Waited for 10762 ms so far
+2020-12-28 18:57:19:795 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:19:800 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:19:803 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:19:803 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:19:803 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:19:804 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:19:864 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:19:865 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:19:865 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:19:882 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:19:883 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:19:883 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:19:884 [BaseDriver] Waited for 11353 ms so far
+2020-12-28 18:57:20:387 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:20:393 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:20:394 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:20:394 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:20:394 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:20:397 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:20:411 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:20:412 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:20:412 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:20:425 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:20:429 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:20:429 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:20:430 [BaseDriver] Waited for 11899 ms so far
+2020-12-28 18:57:20:934 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:20:939 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:20:940 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:20:940 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:20:944 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:20:946 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:20:985 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:20:985 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:20:986 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:21:052 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:21:053 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:21:053 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:21:054 [BaseDriver] Waited for 12523 ms so far
+2020-12-28 18:57:21:559 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:21:565 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:21:566 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:21:566 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:21:566 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:21:568 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:21:585 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:21:588 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:21:588 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:21:607 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:21:610 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:21:612 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:21:613 [BaseDriver] Waited for 13082 ms so far
+2020-12-28 18:57:22:114 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:22:121 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:22:128 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:22:128 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:22:128 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:22:131 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:22:164 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:22:165 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:22:165 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:22:218 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:22:219 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:22:219 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:22:220 [BaseDriver] Waited for 13689 ms so far
+2020-12-28 18:57:22:725 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:22:733 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:22:733 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:22:734 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:22:734 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:22:734 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:22:752 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:22:752 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:22:752 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:22:765 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:22:766 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:22:767 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:22:767 [BaseDriver] Waited for 14236 ms so far
+2020-12-28 18:57:23:268 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:23:275 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:23:275 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:23:279 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:23:280 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:23:280 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:23:299 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:23:299 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:23:299 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:23:322 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:23:322 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:23:323 [BaseDriver] Waited for 14792 ms so far
+2020-12-28 18:57:23:323 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:23:825 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:23:831 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tronlinkpro.wallet:id/tv_walletname","context":"","multiple":false}}
+2020-12-28 18:57:23:833 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2020-12-28 18:57:23:836 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2020-12-28 18:57:23:841 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:23:844 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:23:878 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2020-12-28 18:57:23:879 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.tronlinkpro.wallet:id/tv_walletname' using 'ID' with the contextId: '' multiple: false
+2020-12-28 18:57:23:879 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tronlinkpro.wallet:id/tv_walletname]
+2020-12-28 18:57:23:904 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2020-12-28 18:57:23:905 [AndroidBootstrap] Received command result from bootstrap
+2020-12-28 18:57:23:905 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2020-12-28 18:57:23:920 [W3C (e7a498c7)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-12-28 18:57:23:921 [W3C (e7a498c7)]     at AndroidDriver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-12-28 18:57:23:921 [W3C (e7a498c7)]     at AndroidDriver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2020-12-28 18:57:23:921 [W3C (e7a498c7)]     at AndroidDriver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2020-12-28 18:57:23:922 [HTTP] <-- POST /wd/hub/session/e7a498c7-3afe-425b-be97-77cc87d46e71/element 404 15391 ms - 671
+2020-12-28 18:57:23:922 [HTTP] 
+2020-12-28 18:59:30:763 [HTTP] --> POST /wd/hub/session
+2020-12-28 18:59:30:764 [HTTP] {"desiredCapabilities":{"app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","appPackage":"com.tronlinkpro.wallet","automationName":"uiautomator1","deviceName":"platina","ensureWebviewsHavePages":true,"noReset":true,"platformName":"Android","platformVersion":"9","newCommandTimeout":0,"connectHardwareKeyboard":true}}
+2020-12-28 18:59:30:764 [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/tron/Documents/Work/TronTest/TronLink.apk","appPackage":"com.tronlinkpro.wallet","automationName":"uiautomator1","deviceName":"platina","ensureWebviewsHavePages":true,"noReset":true,"platformName":"Android","platformVersion":"9","newCommandTimeout":0,"connectHardwareKeyboard":true},null,null]
+2020-12-28 18:59:30:764 [BaseDriver] Event 'newSessionRequested' logged at 1609153170764 (18:59:30 GMT+0800 (China Standard Time))
+2020-12-28 18:59:30:766 [Appium] Appium v1.19.0 creating new AndroidDriver (v4.41.0) session
+2020-12-28 18:59:30:774 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:162:15)
+    at writeGeneric (node:internal/stream_base_commons:153:3)
+    at Socket._writeGeneric (node:net:763:11)
+    at Socket._write (node:net:775:8)
+    at writeOrBuffer (node:internal/streams/writable:388:12)
+    at Socket.Writable.write (node:internal/streams/writable:333:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:341:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+2020-12-28 18:59:30:777 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:162:15)
+    at writeGeneric (node:internal/stream_base_commons:153:3)
+    at Socket._writeGeneric (node:net:763:11)
+    at Socket._write (node:net:775:8)
+    at writeOrBuffer (node:internal/streams/writable:388:12)
+    at Socket.Writable.write (node:internal/streams/writable:333:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:341:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+2020-12-28 18:59:30:778 [BaseDriver] Creating session with MJSONWP desired capabilities: {
+2020-12-28 18:59:30:778 [BaseDriver]   "app": "/Users/tron/Documents/Work/TronTest/TronLink.apk",
+2020-12-28 18:59:30:779 [BaseDriver]   "appPackage": "com.tronlinkpro.wallet",
+2020-12-28 18:59:30:779 [BaseDriver]   "automationName": "uiautomator1",
+2020-12-28 18:59:30:785 [BaseDriver]   "deviceName": "platina",
+2020-12-28 18:59:30:785 [BaseDriver]   "ensureWebviewsHavePages": true,
+2020-12-28 18:59:30:786 [BaseDriver]   "noReset": true,
+2020-12-28 18:59:30:786 [BaseDriver]   "platformName": "Android",
+2020-12-28 18:59:30:787 [BaseDriver]   "platformVersion": "9",
+2020-12-28 18:59:30:787 [BaseDriver]   "newCommandTimeout": 0,
+2020-12-28 18:59:30:789 [BaseDriver]   "connectHardwareKeyboard": true
+2020-12-28 18:59:30:789 [BaseDriver] }
+2020-12-28 18:59:30:794 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2020-12-28 18:59:30:794 [BaseDriver]   connectHardwareKeyboard
+2020-12-28 18:59:30:797 [BaseDriver] Session created with session id: 397a8316-1b79-4624-9463-18fa4fdbdd21
